@@ -20,6 +20,7 @@ RUN \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install -y --no-install-recommends \
+    libopenal1 \
     unzip && \
   echo "**** install shadps4qt ****" && \
   if [ -z ${SHADPS4_VERSION+x} ]; then \
