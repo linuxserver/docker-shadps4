@@ -1,0 +1,28 @@
+---
+
+# jenkins variables
+project_name: docker-shadps4
+external_type: github_devel
+release_type: stable
+release_tag: latest
+ls_branch: master
+repo_vars:
+  - EXT_GIT_BRANCH = 'master'
+  - EXT_USER = 'shadps4-emu'
+  - EXT_REPO = 'shadps4-qtlauncher'
+  - BUILD_VERSION_ARG = 'SHADPS4_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-shadps4'
+  - DOCKERHUB_IMAGE = 'linuxserver/shadps4'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/shadps4'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/shadps4'
+  - DIST_IMAGE = 'debian'
+  - MULTIARCH='false'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='3001'
+  - CI_SSL='true'
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''

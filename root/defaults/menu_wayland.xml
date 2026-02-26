@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+<menu id="root-menu" label="MENU">
+<item label="foot" icon="/usr/share/icons/hicolor/48x48/apps/foot.png"><action name="Execute"><command>/usr/bin/foot</command></action></item>
+<item label="shadPS4" icon="/opt/shadps4/net.shadps4.shadPS4.svg"><action name="Execute"><command>sh -c "foot -e /opt/shadps4/AppRun"</command></action></item>
+</menu>
+</openbox_menu>
