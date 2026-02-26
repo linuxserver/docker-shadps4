@@ -37,9 +37,9 @@ Find us at:
 [![Jenkins Build](https://img.shields.io/jenkins/build?labelColor=555555&logoColor=ffffff&style=for-the-badge&jobUrl=https%3A%2F%2Fci.linuxserver.io%2Fjob%2FDocker-Pipeline-Builders%2Fjob%2Fdocker-shadps4%2Fjob%2Fmaster%2F&logo=jenkins)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-shadps4/job/master/)
 [![LSIO CI](https://img.shields.io/badge/dynamic/yaml?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=CI&query=CI&url=https%3A%2F%2Fci-tests.linuxserver.io%2Flinuxserver%2Fshadps4%2Flatest%2Fci-status.yml)](https://ci-tests.linuxserver.io/linuxserver/shadps4/latest/index.html)
 
-[shadPS4](https://github.com/linuxserver/docker-shadps4) is an early PlayStation 4 emulator for Windows, Linux and macOS written in C++.
+[shadPS4](https://shadps4.net/) is an early PlayStation 4 emulator for Windows, Linux and macOS written in C++.
 
-[![shadps4](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shadps4-logo.png)](https://github.com/linuxserver/docker-shadps4)
+[![shadps4](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shadps4-logo.png)](https://shadps4.net/)
 
 ## Supported Architectures
 

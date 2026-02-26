@@ -2,7 +2,7 @@
 
 # project information
 project_name: shadps4
-project_url: "https://github.com/linuxserver/docker-shadps4"
+project_url: "https://shadps4.net/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/shadps4-logo.png"
 project_blurb: "[shadPS4]({{ project_url }}) is an early PlayStation 4 emulator for Windows, Linux and macOS written in C++. "
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
