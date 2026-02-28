@@ -25,6 +25,7 @@ pipeline {
     BUILD_VERSION_ARG = 'SHADPS4_VERSION'
     LS_USER = 'linuxserver'
     LS_REPO = 'docker-shadps4'
+    CONTAINER_NAME = 'shadps4'
     DOCKERHUB_IMAGE = 'linuxserver/shadps4'
     DEV_DOCKERHUB_IMAGE = 'lsiodev/shadps4'
     PR_DOCKERHUB_IMAGE = 'lspipepr/shadps4'
