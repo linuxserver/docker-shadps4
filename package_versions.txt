@@ -1111,7 +1111,7 @@ stdlib                                                                        go
 stdlib                                                                        go1.25.8                               go-module  (+4 duplicates)  
 stterm                                                                        0.9.2-1                                deb                         
 sudo                                                                          1.9.16p2-3+deb13u1                     deb                         
-systemd                                                                       255.4-1ubuntu8.12                      deb                         
+systemd                                                                       255.4-1ubuntu8.14                      deb                         
 systemd                                                                       257.9-1~deb13u1                        deb                         
 systemd-cryptsetup                                                            257.9-1~deb13u1                        deb                         
 systemd-timesyncd                                                             257.9-1~deb13u1                        deb                         
