@@ -25,7 +25,7 @@ RUN \
   echo "**** install shadps4qt ****" && \
   if [ -z ${SHADPS4_VERSION+x} ]; then \
     SHADPS4_VERSION=$(curl -sX GET "https://api.github.com/repos/shadps4-emu/shadps4-qtlauncher/releases" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    | jq -r '.[0].tag_name'); \
   fi && \
   SHORT_VERSION=$(echo "$SHADPS4_VERSION" | sed 's/shadPS4QtLauncher-//' | cut -c 1-18) && \
   curl -o \
@@ -40,7 +40,7 @@ RUN \
     /opt/shadps4 && \
   echo "**** install pkg extractor ****" && \
   PKG_URL=$(curl -sX GET "https://api.github.com/repos/AzaharPlus/shadPS4Plus/releases/latest" \
-    | awk -F '(": "|")' '/browser.*linux.zip/ {print $3}') && \
+    | jq -r 'first(.assets[].browser_download_url | select(test("linux.zip")))') && \
   curl -o \
     /tmp/pkg.zip -L \
     "${PKG_URL}" && \
