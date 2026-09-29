@@ -38,6 +38,7 @@ RUN \
   mv \
     squashfs-root \
     /opt/shadps4 && \
+  find /opt/shadps4 -type d -exec chmod 755 {} + && \
   echo "**** install pkg extractor ****" && \
   PKG_URL=$(curl -sX GET "https://api.github.com/repos/AzaharPlus/shadPS4Plus/releases/latest" \
     | jq -r 'first(.assets[].browser_download_url | select(test("linux.zip")))') && \
